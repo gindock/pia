@@ -202,9 +202,20 @@
   }
 }
 
+#pia-declare-measures {
+  p {
+    margin-bottom: 0;
+  }
+  .icon-blue {
+    font-size: 4.5rem;
+    margin-bottom: 12px;
+  }
+}
+
 .icon-green,
 .icon-gray,
-.icon-red {
+.icon-red,
+.icon-blue {
   font-size: 9rem;
   margin-top: 6px;
 }
@@ -216,5 +227,8 @@
 }
 .icon-red {
   color: $pia-red;
+}
+.icon-blue {
+  color: $pia-blue;
 }
 
